@@ -1,6 +1,6 @@
 {
   "name": "ionic-gallery-modal-custom",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Ionic 2/3 Gallery Modal custom",
   "main": "dist/index.js",
   "types": "dist/index.qd.ts",
