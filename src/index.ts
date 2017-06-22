@@ -20,7 +20,7 @@ import { TouchEventsDirective } from './directives/touch-events';
     TouchEventsDirective,
   ],
   exports: [
-    ZoomableImage, 
+    ZoomableImage,
     GalleryModal,
   ],
   entryComponents: [
