@@ -31,4 +31,4 @@ Desktop.ini
 
 # Library files
 src/*
-build/*
+dist/*

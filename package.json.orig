@@ -1,7 +1,11 @@
 {
   "name": "ionic-gallery-modal-custom",
   "version": "0.1.1",
+<<<<<<< Updated upstream
+  "description": "Ionic 2/3 Gallery Modal custom",
+=======
   "description": "Ionic 2/3 Gallery Modal Custom",
+>>>>>>> Stashed changes
   "main": "dist/index.js",
   "types": "dist/index.qd.ts",
   "scripts": {
@@ -16,9 +20,14 @@
     "gallery",
     "gallery modal"
   ],
+<<<<<<< Updated upstream
   "author": "Ciprian Mocanu <ciprian@mbe.ro>",
+=======
+  "author": {
     "name": "Tomaž Rems",
     "email": "rems.tomaz@gmail.com"
+  },
+>>>>>>> Stashed changes
   "license": "MIT",
   "dependencies": {
     "ionic-angular": "3.3.0"
@@ -65,9 +74,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rtcimi/ionic-gallery-modal-custom.git"
+<<<<<<< Updated upstream
+    "url": "git+https://github.com/nikini/ionic-gallery-modal.git"
   },
   "bugs": {
   },
   "homepage": ""
+=======
+    "url": "https://github.com/rtcimi/ionic-gallery-modal-custom.git"
+  }
+>>>>>>> Stashed changes
 }

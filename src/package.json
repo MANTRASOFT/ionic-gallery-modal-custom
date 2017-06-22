@@ -1,13 +1,13 @@
 {
-  "name": "ionic-gallery-modal",
+  "name": "ionic-gallery-modal-custom",
   "version": "0.1.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nikini/ionic-gallery-modal"
+    "url": "https://github.com/rscimi/ionic-gallery-modal-custom"
   },
   "author": {
-    "name": "Ciprian Mocanu",
-    "email": "ciprian@mbe.ro"
+    "name": "Tomaž Rems",
+    "email": "rems.tomaz@gmail.com"
   },
   "keywords": [
     "ionic 2",
@@ -17,10 +17,10 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nikini/ionic-gallery-modal/issues"
+    "url": "https://github.com/rtcimi/ionic-gallery-modal-custom/issues"
   },
-  "module": "ionic-gallery-modal.js",
-  "typings": "ionic-gallery-modal.d.ts",
+  "module": "ionic-gallery-modal-custom-custom.js",
+  "typings": "ionic-gallery-modal-custom-custom.d.ts",
   "peerDependencies": {
     "@angular/core": "^4.1.2",
     "ionic-angular": "3.3.0",

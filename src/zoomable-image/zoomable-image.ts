@@ -11,6 +11,7 @@ export class ZoomableImage implements OnInit, OnDestroy {
   @ViewChild('ionScrollContainer', { read: ElementRef }) ionScrollContainer: ElementRef;
 
   @Input() src: string;
+  @Input() alt: string;
   @Input() parentSubject: Subject<any>;
 
   @Output() disableScroll = new EventEmitter();
@@ -122,6 +123,7 @@ export class ZoomableImage implements OnInit, OnDestroy {
     if (!this.imageElement) {
       this.imageElement = new Image();
       this.imageElement.src = this.src;
+      this.imageElement.alt = this.alt;
       this.imageElement.onload = this.saveImageDimensions.bind(this);
       return;
     }
