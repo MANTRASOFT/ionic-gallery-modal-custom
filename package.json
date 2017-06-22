@@ -1,6 +1,6 @@
 {
   "name": "ionic-gallery-modal-custom",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Ionic 2/3 Gallery Modal custom",
   "main": "dist/index.js",
   "types": "dist/index.qd.ts",
@@ -69,7 +69,6 @@
     "type": "git",
     "url": "git+https://github.com/nikini/ionic-gallery-modal.git"
   },
-  "bugs": {
-  },
+  "bugs": {},
   "homepage": ""
 }
