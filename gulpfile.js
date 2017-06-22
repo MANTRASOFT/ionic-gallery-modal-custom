@@ -135,7 +135,7 @@ gulp.task('rollup:umd', function () {
       // The name to use for the module for UMD/IIFE bundles
       // (required for bundles with exports)
       // See https://github.com/rollup/rollup/wiki/JavaScript-API#modulename
-      moduleName: 'ionic-gallery-modal-custom',
+      moduleName: 'ionic-gallery-modal',
 
       // See https://github.com/rollup/rollup/wiki/JavaScript-API#globals
       globals: {
@@ -143,7 +143,7 @@ gulp.task('rollup:umd', function () {
       }
 
     }))
-    .pipe(rename('ionic-gallery-modal-custom.umd.js'))
+    .pipe(rename('ionic-gallery-modal.umd.js'))
     .pipe(gulp.dest(distFolder));
 });
 
