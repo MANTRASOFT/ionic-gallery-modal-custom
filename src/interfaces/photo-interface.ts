@@ -1,4 +1,6 @@
 // Photo interface
 export interface Photo {
-    url: string;
+    src: string;
+    alt: string;
+    show: boolean;
 }

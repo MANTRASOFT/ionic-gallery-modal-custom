@@ -1,7 +1,7 @@
 {
-  "name": "ionic-gallery-modal",
+  "name": "ionic-gallery-modal-custom",
   "version": "0.1.1",
-  "description": "Ionic 2/3 Gallery Modal (to preview photos)",
+  "description": "Ionic 2/3 Gallery Modal custom",
   "main": "dist/index.js",
   "types": "dist/index.qd.ts",
   "scripts": {
@@ -20,10 +20,7 @@
     "gallery",
     "gallery modal"
   ],
-  "author": {
-    "name": "Ciprian Mocanu",
-    "email": "ciprian@mbe.ro"
-  },
+  "author": "Ciprian Mocanu <ciprian@mbe.ro>",
   "license": "MIT",
   "dependencies": {
     "ionic-angular": "3.3.0"
@@ -70,6 +67,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nikini/ionic-gallery-modal.git"
-  }
+    "url": "git+https://github.com/nikini/ionic-gallery-modal.git"
+  },
+  "bugs": {
+  },
+  "homepage": ""
 }
