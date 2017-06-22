@@ -3,11 +3,11 @@
   "version": "0.1.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rscimi/ionic-gallery-modal-custom"
+    "url": "https://github.com/nikini/ionic-gallery-modal"
   },
   "author": {
-    "name": "Tomaž Rems",
-    "email": "rems.tomaz@gmail.com"
+    "name": "Ciprian Mocanu",
+    "email": "ciprian@mbe.ro"
   },
   "keywords": [
     "ionic 2",
@@ -17,7 +17,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rtcimi/ionic-gallery-modal-custom/issues"
+    "url": "https://github.com/nikini/ionic-gallery-modal/issues"
   },
   "module": "ionic-gallery-modal.js",
   "typings": "ionic-gallery-modal.d.ts",

@@ -29,5 +29,4 @@ Desktop.ini
 **/*.ngfactory.ts
 
 # Build files
-ionic-gallery-modal-0.1.1.tgz
-package-lock.json
+dist/*

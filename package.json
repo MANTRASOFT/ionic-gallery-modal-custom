@@ -1,12 +1,16 @@
 {
-  "name": "ionic-gallery-modal-custom",
+  "name": "ionic-gallery-modal",
   "version": "0.1.1",
-  "description": "Ionic 2/3 Gallery Modal Custom",
+  "description": "Ionic 2/3 Gallery Modal (to preview photos)",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/index.qd.ts",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
+    "docs": "npm run docs:build",
+    "docs:build": "compodoc -p tsconfig.json -n ionic-gallery-modal -d docs --hideGenerator",
+    "docs:serve": "npm run docs:build -- -s",
+    "docs:watch": "npm run docs:build -- -s -w",
     "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
     "test": "tsc && karma start"
   },
@@ -16,7 +20,10 @@
     "gallery",
     "gallery modal"
   ],
-  "author": "Tomaz Rems <rems.tomaz@gmail.com>",
+  "author": {
+    "name": "Ciprian Mocanu",
+    "email": "ciprian@mbe.ro"
+  },
   "license": "MIT",
   "dependencies": {
     "ionic-angular": "3.3.0"
@@ -63,9 +70,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rtcimi/ionic-gallery-modal-custom.git"
-  },
-  "bugs": {
-  },
-  "homepage": ""
+    "url": "https://github.com/nikini/ionic-gallery-modal.git"
+  }
 }

@@ -3,7 +3,6 @@ import { Subject } from 'rxjs/Subject';
 export declare class ZoomableImage implements OnInit, OnDestroy {
     ionScrollContainer: ElementRef;
     src: string;
-    alt: string;
     parentSubject: Subject<any>;
     disableScroll: EventEmitter<{}>;
     enableScroll: EventEmitter<{}>;
