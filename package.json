@@ -18,7 +18,7 @@
   ],
   "author": "Ciprian Mocanu <ciprian@mbe.ro>",
     "name": "Tomaž Rems",
-    "email": "rems.tomaz@gmail.com"
+    "email": "rems.tomaz@gmail.com",
   "license": "MIT",
   "dependencies": {
     "ionic-angular": "3.3.0"
